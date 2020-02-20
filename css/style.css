@@ -1,0 +1,21 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.myName{
+    color: #fe117e;
+}
+h1{
+    font-size: 50px;
+}
+.halfwidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halfwidth img{
+    width: 90%;
+
+}
+
+
