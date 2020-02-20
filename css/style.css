@@ -72,5 +72,8 @@ p{
     border-image: linear-gradient(180deg,#ff0088,#e74792) ;
     border-image-slice: 1;
 }
+.footer{
+    text-align: center;
+}
 
 
