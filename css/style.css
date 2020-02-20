@@ -1,11 +1,18 @@
 body{
+    margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
-.myName{
+.texthighlight{
     color: #fe117e;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .halfwidth{
     width: 40%;
@@ -16,6 +23,54 @@ h1{
 .halfwidth img{
     width: 90%;
 
+}
+.topbanner{
+    height: 500px;
+    background: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+}
+.liinkbutton{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#ff0088,#e74792);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+.dream{
+    height: 400px;
+    background: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: right;
+}
+.singleex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 250px;
+    background-color: white;
+}
+.exprience{
+    background: url(../images/expbg.png);
+    
+    
+    background-repeat: no-repeat;
+   height: 250px;
+   padding-bottom: 100px;
+
+}
+#line1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#1852a0,#1852a0) ;
+    border-image-slice: 1;
+}
+#line2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#ff0088,#e74792) ;
+    border-image-slice: 1;
 }
 
 
